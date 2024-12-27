@@ -1,5 +1,48 @@
+@font-face {
+    font-family: 'Cubic';
+    src: url(./Font/Cubic_11.ttf);
+}
+
 * {
-    font-family: 微軟正黑體;
+    font-family: 'Cubic', 微軟正黑體;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background: #252424;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+section {
+    text-align: center;
+}
+
+#number {
+    padding: 30px;
+    font-size: 36px;
+    color: #252424;
+    text-align: center;
+}
+
+button {
+    padding: 20px 80px;
+    margin-top: 20px;
+    color: #252424;
+    font-size: 24px;
+}
+
+.tip {
+    padding: 50px 0;
+    font-size: 24px;
+    color: #fff;
 }
